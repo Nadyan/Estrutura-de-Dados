@@ -1,0 +1,17 @@
+<html>
+
+<br>
+	<head>
+		<title> bla </title>
+	</head>
+	
+	
+	
+	<body>
+		<img>	bla bla
+		<frame>  bla bla
+	</body>
+	
+	<!comentario>
+
+</html>

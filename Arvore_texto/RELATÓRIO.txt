@@ -1,0 +1,31 @@
+Trabalho Final EDA - BCC - UDESC
+Nadyan Suriel Pscheidt
+
+
+		
+	PROGRAMA/CÓDIGO FONTE:
+	
+	O programa consiste em ordenar as palavras de um texto utilizando uma árvore binária de busca (ABB).
+
+	O código foi implementado utilizando a struct 'info' para organizar melhor as informações de cada palavra,
+nessa struct encontramos os campos 'campoChave', 'linha' e 'coluna', (Presente em cliente.h).
+
+	typedef  struct {
+    		tipoChave campoChave;
+    		int linha;
+    		int coluna;
+	}info;
+
+	Foram implementadas as funções de inserção de texto na árvore e de busca de palavras na árvore, faltou
+a implementação que permite a inserção de palavras repetidas. Essa função seria composta de uma lista para
+cada nó da árvore, assim, palavras repetidas seriam inseridas na lista do seu respectivo nó da ABB.
+
+	
+	ARQUIVOS:
+	
+	O arquivo zip é composto de arquivos fonte (.h e .c), junto com um arquivo .txt de teste, contendo palavras 
+a serem inseridas na ABB.
+
+	Caso o arquivo teste não seja compilado junto com o progama por linha de comando, ele será automaticamente
+inserido no programa, basta estar na mesma pasta dos demais arquivos.
+
